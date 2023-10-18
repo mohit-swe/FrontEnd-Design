@@ -1,31 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
+/* Entire Web site */
+* {
+	padding: 0;
+	margin: 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-html,body
+body
 {
 	height:100%;
 	width:100%;
 	color:#222;
 	font-family:century gothic;
 }
+
+/* Nav Bar */
 .navbar
 {
 	padding:.4rem; /* 1 rem or em =16px */
@@ -45,13 +34,14 @@ display:inline-block;
 border-radius:10px;
 }
 
-
-
-
 .nav-link
 {
 	font-size:14px;
 }
+
+
+
+
 
 .jumbotron
 {
@@ -189,38 +179,6 @@ hr.light
 	
 }
 
-
-#c1
-{
-	font-size:24px;
-	font-family:century gothic;
-	color:grey;
-	
-}
-#c1 #c2
-{
-	color:black;
-	
-}
-#c1 #c3
-{
-	color:red;
-	
-}
-#c1 #c4
-{
-	color:green;
-	
-}
-#c1 #c5
-{
-	color:orange;
-	
-}
-#c1 #b1
-{
-	color:blue;
-}
 
 /*--- Fixed Background Image --*/
 figure {
